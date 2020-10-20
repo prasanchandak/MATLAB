@@ -4,6 +4,7 @@ t=1:0.1:20;
 y=exp(-a*t).*cos(b*t);
 plot(t,y);
 grid on;
+# Grid use to disply graph 
 xlabel('Time in second');
 ylabel('Response in mm');
 title('Damped Oscillation')
